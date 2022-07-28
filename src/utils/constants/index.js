@@ -63,7 +63,6 @@ const ROUTE_PATHS = {
   login: '/login',
   settings: '/settings',
   dashboard: '/dashboard',
-  profile: '/profile',
   changePassword: '/change-password',
   forgotPassword: '/forgot-password'
 }

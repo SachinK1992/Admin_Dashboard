@@ -3,8 +3,6 @@ import { Box } from '@mui/material'
 import { DashboardIcon } from './iconComponents/DashboardIcon'
 import { EllipseIcon } from './iconComponents/EllipseIcon'
 import { EnglishIcon } from './iconComponents/EnglishIcon'
-import { FrenchIcon } from './iconComponents/FrenchIcon'
-import { GameIcon } from './iconComponents/GameIcon'
 import { GermanIcon } from './iconComponents/GermanIcon'
 import { Login1Icon } from './iconComponents/Login1Icon'
 import { LoginBg2Icon } from './iconComponents/LoginBg2Icon'
@@ -12,12 +10,9 @@ import { LogoutIcon } from './iconComponents/LogoutIcon'
 import { MailIcon } from './iconComponents/MailIcon'
 import { NotificationIcon } from './iconComponents/NotificationIcon'
 import { PhoneIcon } from './iconComponents/PhoneIcon'
-import { PortugalIcon } from './iconComponents/PortugalIcon'
 import { ProfileIcon } from './iconComponents/ProfileIcon'
-import { RussianIcon } from './iconComponents/RussianIcon'
 import { SettingIcon } from './iconComponents/SettingIcon'
 import { SideArrowIcon } from './iconComponents/SideArrowIcon'
-import { SpanishIcon } from './iconComponents/SpanishIcon'
 
 export default {
   title: 'atoms/icons'
@@ -35,10 +30,6 @@ export const icons = () => (
 
       <Cell><EnglishIcon title='EnglishIcon' width={40} height={40} /></Cell>
 
-      <Cell><FrenchIcon title='FrenchIcon' width={40} height={40} /></Cell>
-
-      <Cell><GameIcon title='GameIcon' width={40} height={40} /></Cell>
-
       <Cell><GermanIcon title='GermanIcon' width={40} height={40} /></Cell>
 
       <Cell><Login1Icon title='Login1Icon' width={40} height={40} /></Cell>
@@ -53,17 +44,11 @@ export const icons = () => (
 
       <Cell><PhoneIcon title='PhoneIcon' width={40} height={40} /></Cell>
 
-      <Cell><PortugalIcon title='PortugalIcon' width={40} height={40} /></Cell>
-
       <Cell><ProfileIcon title='ProfileIcon' width={40} height={40} /></Cell>
-
-      <Cell><RussianIcon title='RussianIcon' width={40} height={40} /></Cell>
 
       <Cell><SettingIcon title='SettingIcon' width={40} height={40} /></Cell>
 
       <Cell><SideArrowIcon title='SideArrowIcon' width={40} height={40} /></Cell>
-
-      <Cell><SpanishIcon title='SpanishIcon' width={40} height={40} /></Cell>
     </Row>
   </Box>
 )
